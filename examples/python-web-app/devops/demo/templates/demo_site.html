@@ -1,101 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Template</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: yellow;
-}
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
-}
-
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: yellow;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-</style>
-</head>
-<body>
-
-
-<header>
-  <h2>Free DevOps Course By Abhishek</h2>
-</header>
-
-<section>
-  <nav>
-    <ul>
-      <li><a href="www.youtube.com/@AbhishekVeeramalla">YouTube</a></li>
-      <li><a href="www.linkedin.com/in/abhishek-veeramalla-77b33996/">LinkedIn</a></li>
-      <li><a href="https://telegram.me/abhishekveeramalla">Telegram</a></li>
-    </ul>
-  </nav>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India Somthing has changed</title>
+    <!-- <link rel="stylesheet" href="./mock.css"> -->
   
-  <article>
-    <h1>Agenda</h1>
-    <p>Learn DevOps with strong foundational knowledge and practical understanding</p>
-    <p>Please Share the Channel with your friends and colleagues</p>
-  </article>
-</section>
+    <link rel="icon" href="https://tse4.mm.bing.net/th?id=OIP.jBA0fAwgdtDhlcb9lBS66QHaEK&pid=Api&P=0&h=180">
 
-<footer>
-  <p>@AbhishekVeeramalla</p>
-</footer>
+    <style>
+          *{
+        margin: 0px;
+    }
+    .navbar{
+        width: 100%;
+        height: 80px;
+        background-color: rgb(4, 2, 1);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+       
+    }
+    .english button{
+        background-color: rgb(193, 17, 25);
+        color: antiquewhite;
+        height: 30px;
+        width: 50px;
+        border-radius: 10px;
+        border: none;
+        margin-right: -200px;
+    }
+    .logo>img{
+        margin-left: -200px;
+    }
+    #b1{
+        /* border: none; */
+        height: 25px;
+        width: 100px;
+        margin: 0px 30px;
+        background-color: rgb(4, 2, 1);
+        color: aliceblue;
+    }
+    .rcb{  
+       
+        background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/51e53f54-0d9f-40ec-9e05-c030def06ac9/be5b2939-da9f-4b9f-b76b-31b32ad0515b/IN-en-20230515-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+        background-size: cover;
+        margin-top: -200px;
+        background-repeat: no-repeat;
+    
+    
+    
+    }
+    .rcb>h1{
+        margin-top: 200px;
+        margin-left: 200px;
+        font-size: 60px;
+        color: aliceblue;
+    }
+    .rcb>h4{
+        margin-left: 200px;
+        font-size: 20px;
+        color: aliceblue;
+    }
+    .rcb>h6{
+        margin-left: 200px;
+        margin-top: 20px;
+        color: aliceblue;
+    }
+    .rcb>button{
+        margin-left: 40px;
+        color: antiquewhite;
+        background-color: red;
+        border: none;
+        height: 30px;
+        width: 100px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    #b1{
+        margin-left: 100px;
+    }
+    .rcb>input{
+        margin-left: 200px;
+        background-color: rgba(128, 128, 128, 0.466);
+        color: aliceblue;
+        /* border: none; */
+        height: 30px;
+        width: 200px;
+    }
+    .csk{
+        width: 100%;
+        height: 300px;
+       background-color:black;
+    }
+    .csk>h1{
+        padding: 100px 0px 0px 0px;
+        color: aliceblue;
+        
+    }
+    .csk>h3{
+        color: aliceblue;
+        margin-left: 200px;     
+    }
+    .csk>h1{
+        margin-left: 200px;
+    }
+    .bv{
+        display: flex;
+        
+    }
+    .rcb>h1{
+        padding-top: 100px;
+    }
+    .rcb>button{
+       margin-bottom: 100px;
+    }
+    </style>
+</head>
+<body >
+    
+    <div class="netflix">
+        <div class="cha">
+        <div class="navbar">
+            <div class="logo">
+                <img width="200px" height="80px" src="https://tse1.mm.bing.net/th?id=OIP.TTCgnTjm3-P-qjGSCmgBCAHaEH&pid=Api&P=0&h=180" alt="">
+            </div>
+            <div class="english">
+                <select name="" id="b1">
+                    <option value="">English</option>
+                </select>
+                <button>Signin</button>
+            </div>
+        </div>
+        <div class="rcb">
+            <h1>Unlimited movies, TV <br> Shows and more</h1>
+            <h4>Watch anywhere. cancel anytime</h4>
+            <h6>Ready to watch? Enter your email to create or restart your membership.</h6>
+            <input placeholder="Email address" type="text">
+            <button>Get started</button>
+        </div>
 
+<div class="bv">
+    <div class="csk">
+        <h1>Enjoy on your tv</h1>
+        <h3>Watch on smart TVs, PlayStation, Xbox, <br>
+            Chromecast, Apple TV, Blu-ray players and <br>  
+            more.</h3>
+    </div>
+    <img width="100%" height="300px" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
+</div>
+       
+
+
+
+</div>
+
+    </div>
 </body>
 </html>
-
