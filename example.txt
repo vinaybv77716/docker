@@ -1,3 +1,7 @@
 This is a example for for me 
 
+<<<<<<< HEAD
 pru
+=======
+Vinay
+>>>>>>> d27ece1c5cc424cd7c0705d12016254694c90888
